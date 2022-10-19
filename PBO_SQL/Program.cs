@@ -233,7 +233,30 @@ namespace PBO_SQL
 
         static void Main(string[] args)
         {
+            // Object dari UserManager
             UserManager userManager = new UserManager();
+
+            //Get All Data
+            //userManager.GetAllData();
+
+            // Get User by Id
+            //userManager.GetUserById(1);
+
+            // Insert Data
+            //userManager.InsertUser(new User { Id = 5, Username = "Mawang", Title = "Admin", Phone_number = "+6287777333222", Status = 1, Email = "mawang@gmail.com"});
+            //userManager.GetAllData();
+
+            // Update Data
+            //userManager.UpdateName(new User { Id = 1, Username = "Marcoo" });
+            //userManager.UpdateTitle(new User { Id = 5, Title = "Administrator" });
+            //userManager.UpdatePhoneNumber(new User { Id = 2, Phone_number = "+6288888888888" });
+            //userManager.UpdateStatus(new User { Id = 4, Status = 0 });
+            //userManager.UpdateEmail(new User { Id = 3, Email = "mario@gmail.com" });
+            //userManager.GetAllData();
+
+            // Delete User
+            //userManager.DeleteUser(5);
+            //userManager.GetAllData();
         }
     }
 }
